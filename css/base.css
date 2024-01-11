@@ -1,0 +1,87 @@
+:root {
+  --primary: #ffc952;
+  --textPrimary: #1f0a0a;
+  --borderPrimary: #dadce0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter";
+  background-image: url("/assets/main-background.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 90vh;
+}
+.logo-container {
+  z-index: 10;
+  position: absolute;
+  top: 0;
+  left: 6%;
+  padding: 50px 0 0 0;
+  margin: 0 auto;
+  max-width: 1200px;
+  background: #fff;
+}
+.logo {
+  width: 200px;
+  height: 30px;
+}
+.main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40%;
+}
+.user-image {
+  max-width: 114px;
+  max-height: 114px;
+}
+.auth-text {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%;
+  color: var(--textPrimary);
+}
+.login-button {
+  cursor: pointer;
+  border-radius: 20px;
+  background: #fff;
+  border: 1px solid var(--borderPrimary);
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+.login-button span {
+  color: var(--textPrimary);
+  text-align: center;
+  width: 200px;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0.25px;
+}
+.login-button:hover {
+  background-color: rgb(232, 232, 232);
+}
+
+@media (min-width: 500px) {
+  .main {
+    margin-top: 13%;
+  }
+  .auth-text {
+    font-size: 20px;
+  }
+  .login-button span {
+    width: 245px;
+  }
+  body {
+    height: 70vh;
+  }
+}
