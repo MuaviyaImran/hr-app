@@ -1,4 +1,4 @@
-module datumbrain_auth
+module hr
 
 go 1.20
 

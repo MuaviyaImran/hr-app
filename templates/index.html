@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ID | Datumbrain</title>
+    <title>HR | Datumbrain</title>
     <link rel="icon" type="image/x-icon" href="/assets/logo.svg" />
     <script
       src="https://unpkg.com/htmx.org@1.9.6"
@@ -16,49 +16,305 @@
     />
     <link rel="stylesheet" type="text/css" href="/css/base.css" />
   </head>
-  <body>
-    <div class="logo-container">
-      <img class="logo" src="/assets/db-logo-main.svg" alt="" />
-    </div>
-    <section class="main" hx-swap-oob="true">
-      <img class="user-image" src="/assets/User.svg" alt="User Icon" />
-      <p class="auth-text">Sign in with your Datum Brain ID</p>
-      <button class="login-button" hx-get="/api/auth" hx-target="#data">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="20"
-          height="20"
-          viewBox="0 0 20 20"
-          fill="none"
-        >
-          <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
-            d="M19.6 10.2273C19.6 9.51825 19.5364 8.83643 19.4182 8.18188H10V12.0501H15.3818C15.15 13.3001 14.4455 14.3592 13.3864 15.0682V17.5773H16.6182C18.5091 15.8364 19.6 13.2728 19.6 10.2273Z"
-            fill="#4285F4"
+
+  <body class="">
+    <header>
+      <nav>
+        <img class="" src="/assets/logo.svg" alt="HR - Datumbrain Logo" />
+        <div>
+          <ul class="nav-links">
+            <li>Overview</li>
+            <li>Employees</li>
+            <li>Wishes</li>
+          </ul>
+        </div>
+        <div class="profile-notification">
+          <img src="/assets/bell.svg" alt="Notification Icon" />
+          <img
+            style="height: 40px; width: 40px"
+            src="/assets/profile_avatar_1.svg"
+            alt="HR - Profile Icon"
           />
-          <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
-            d="M9.99984 19.9999C12.6998 19.9999 14.9635 19.1044 16.618 17.5772L13.3862 15.0681C12.4907 15.6681 11.3453 16.0226 9.99984 16.0226C7.39529 16.0226 5.19075 14.2635 4.40439 11.8999H1.06348V14.4908C2.70893 17.759 6.09075 19.9999 9.99984 19.9999Z"
-            fill="#34A853"
-          />
-          <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
-            d="M4.40455 11.8999C4.20455 11.2999 4.09091 10.659 4.09091 9.99994C4.09091 9.34085 4.20455 8.69994 4.40455 8.09994V5.50903H1.06364C0.386364 6.85903 0 8.38631 0 9.99994C0 11.6136 0.386364 13.1409 1.06364 14.4909L4.40455 11.8999Z"
-            fill="#FBBC05"
-          />
-          <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
-            d="M9.99984 3.97727C11.468 3.97727 12.7862 4.48182 13.8226 5.47273L16.6907 2.60455C14.9589 0.990909 12.6953 0 9.99984 0C6.09075 0 2.70893 2.24091 1.06348 5.50909L4.40439 8.1C5.19075 5.73636 7.39529 3.97727 9.99984 3.97727Z"
-            fill="#EA4335"
-          />
-        </svg>
-        <span> Sign in with Google </span>
-      </button>
-      <div id="data"></div>
+        </div>
+      </nav>
+      <div class="expaned-container"></div>
+    </header>
+
+    <section class="main-content">
+      <div class="hr-greetings">
+        <span class="hr-name"> Hey Zaib Malik </span>
+        <span class="hr-manager">HR Manager</span>
+      </div>
+      <div class="card-container">
+        <div class="card">
+          <div class="card-title">
+            <img src="/assets/employees.svg" alt="Employee Icon" />
+            <span>Total Employees</span>
+          </div>
+          <span class="card-count">39</span>
+          <div class="card-footer">
+            <span class="card-footer-employee">
+              <div class="card-footer-text-left">
+                <img src="/assets/user-plus.svg" alt="Employee Icon" />
+                <span>11</span>
+              </div>
+              <div class="card-footer-text-left">
+                <img src="/assets/user-minus.svg" alt="Employee Icon" />
+                <span>2</span>
+              </div>
+            </span>
+            <div class="card-footer-bottom">
+              <span>More Details</span
+              ><img src="/assets/external-link.svg" alt="External Link Icon" />
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-title">
+            <img src="/assets/birthday.svg" alt="Birthday Icon" />
+            <span>Employee Birthdays</span>
+          </div>
+          <span class="card-count">4</span>
+          <div class="card-footer">
+            <span class="card-footer-text">
+              <img src="/assets/employees.svg" alt="Employee Icon" />
+              <span>Ali, Bilal & 2 more</span></span
+            >
+            <div class="card-footer-bottom">
+              <span>Wish Them</span
+              ><img src="/assets/external-link.svg" alt="External Link Icon" />
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-title">
+            <img src="/assets/breifcase.svg" alt="Anniversaries Icon" />
+            <span>Work Anniversaries</span>
+          </div>
+          <span class="card-count">1</span>
+          <div class="card-footer">
+            <div class="card-footer-text">
+              <img src="/assets/employees.svg" alt="Employee Icon" />
+              <span>Zulal Ahmed</span>
+            </div>
+            <div class="card-footer-bottom">
+              <span>Wish Them</span
+              ><img src="/assets/external-link.svg" alt=" External Link Icon" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="employee-invite-container">
+        <div class="employee-container">
+          <div class="employee-table-header">
+            <div class="">Employee</div>
+            <div class="table-headr-right">
+              <span>More Details</span
+              ><img src="/assets/external-link.svg" alt="External Link Icon" />
+            </div>
+          </div>
+          <table>
+            <tbody>
+              <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Date of Joining</th>
+                <th>Actions</th>
+              </tr>
+
+              <tr>
+                <td>
+                  <div>
+                    <img
+                      style="height: 30px; width: 30px"
+                      src="/assets/profile_avatar_1.svg"
+                      alt="Profile Avatar"
+                    /><span>Sakura Haruno</span>
+                  </div>
+                </td>
+                <td>name@email.com</td>
+                <td>Dec 15, 2023</td>
+                <td>
+                  <div class="actions">
+                    <img
+                      class="actions-img"
+                      src="/assets/eye.svg"
+                      alt="Eye Icon"
+                    />
+                    <img
+                      class="actions-img"
+                      src="/assets/delete.svg"
+                      alt="Delete Icon"
+                    />
+                    <div class="action-more">
+                      <img class="" src="/assets/menu.svg" alt="Menu Icon" />
+                      <span>More</span>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <div>
+                    <img
+                      style="height: 30px; width: 30px"
+                      src="/assets/profile_avatar_2.svg"
+                      alt="Profile Avatar"
+                    /><span>Sauske Uchiha</span>
+                  </div>
+                </td>
+                <td>name@email.com</td>
+                <td>Nov 15, 2023</td>
+                <td>
+                  <div class="actions">
+                    <img
+                      class="actions-img"
+                      src="/assets/eye.svg"
+                      alt="Eye Icon"
+                    />
+                    <img
+                      class="actions-img"
+                      src="/assets/delete.svg"
+                      alt="Delete Icon"
+                    />
+                    <div class="action-more">
+                      <img class="" src="/assets/menu.svg" alt="Menu Icon" />
+                      <span>More</span>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <div>
+                    <img
+                      style="height: 30px; width: 30px"
+                      src="/assets/profile_avatar_1.svg"
+                      alt="Profile Avatar"
+                    /><span>Naruto Uzumaki</span>
+                  </div>
+                </td>
+                <td>name@email.com</td>
+                <td>Oct 15, 2023</td>
+                <td>
+                  <div class="actions">
+                    <img
+                      class="actions-img"
+                      src="/assets/eye.svg"
+                      alt="Eye Icon"
+                    />
+                    <img
+                      class="actions-img"
+                      src="/assets/delete.svg"
+                      alt="Delete Icon"
+                    />
+                    <div class="action-more">
+                      <img class="" src="/assets/menu.svg" alt="Menu Icon" />
+                      <span>More</span>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <div>
+                    <img
+                      style="height: 30px; width: 30px"
+                      src="/assets/profile_avatar_2.svg"
+                      alt="Profile Avatar"
+                    /><span>Light Yagami</span>
+                  </div>
+                </td>
+                <td>name@email.com</td>
+                <td>Jan 15, 2023</td>
+                <td>
+                  <div class="actions">
+                    <img
+                      class="actions-img"
+                      src="/assets/eye.svg"
+                      alt="Eye Icon"
+                    />
+                    <img
+                      class="actions-img"
+                      src="/assets/delete.svg"
+                      alt="Delete Icon"
+                    />
+                    <div class="action-more">
+                      <img class="" src="/assets/menu.svg" alt="Menu Icon" />
+                      <span>More</span>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <div>
+                    <img
+                      style="height: 30px; width: 30px"
+                      src="/assets/profile_avatar_1.svg"
+                      alt="Profile Avatar"
+                    /><span>Misa Amane</span>
+                  </div>
+                </td>
+                <td>name@email.com</td>
+                <td>Jan 15, 2023</td>
+                <td>
+                  <div class="actions">
+                    <img
+                      class="actions-img"
+                      src="/assets/eye.svg"
+                      alt="Eye Icon"
+                    />
+                    <img
+                      class="actions-img"
+                      src="/assets/delete.svg"
+                      alt="Delete Icon"
+                    />
+                    <div class="action-more">
+                      <img class="" src="/assets/menu.svg" alt="Menu Icon" />
+                      <span>More</span>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+
+              <tr class="border-none">
+                <td class="show-more-employee" colspan="4">
+                  <span class="show-more-employee-content">
+                    <div class="count">1-5 of 39</div>
+                    <div class="arrow-actions">
+                      <img src="/assets/arrow_left.svg" alt="Arrow Left Icon" />
+                      <img
+                        src="/assets/arrow_right.svg"
+                        alt="Arrow Left Icon"
+                      />
+                    </div>
+                  </span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="invite-container">
+          <button>
+            <img src="/assets/user-plus-invite.svg" alt="Invitation Icon" />
+            <span>Invite new People</span>
+          </button>
+          <p>
+            Invite new team members is super easy with new forms. Try adding
+            now!
+          </p>
+          <img src="/assets/user-file.svg" alt="Send Invite Icon" />
+        </div>
+      </div>
     </section>
+
+    <footer>
+      <div><span>Datum Brain Internal Systems [HR Ops] 2023</span></div>
+    </footer>
   </body>
 </html>
