@@ -173,9 +173,18 @@ nav {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  margin: 0 0 10px 0;
+}
+.employeeee {
+  color: #121212;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 123.5%;
+  letter-spacing: 0.139px;
 }
 .employee-container {
-  flex-basis: 66%;
+  flex-basis: 71%;
   border-radius: 8px;
 }
 
@@ -256,7 +265,7 @@ nav {
   border-bottom: none !important;
 }
 .invite-container {
-  flex-basis: 31%;
+  flex-basis: 25%;
   background-color: #fef1d7;
   padding: 30px 48px 0 48px;
   display: flex;
@@ -265,6 +274,7 @@ nav {
   border-radius: 8px;
 }
 .invite-container button {
+  cursor: pointer;
   color: #fff;
   background-color: #34a853;
   font-size: 16px;
