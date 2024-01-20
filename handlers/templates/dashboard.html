@@ -1,0 +1,211 @@
+<div id="swapped" hx-swap-oob="true">
+  <div class="card-container">
+    <div class="card">
+      <div class="card-title">
+        <img src="/assets/employees.svg" alt="Employee Icon" />
+        <span>Total Employees</span>
+      </div>
+      <span class="card-count">39</span>
+      <div class="card-footer">
+        <span class="card-footer-employee">
+          <div class="card-footer-text-left">
+            <img src="/assets/user-plus.svg" alt="Employee Icon" />
+            <span>11</span>
+          </div>
+          <div class="card-footer-text-left">
+            <img src="/assets/user-minus.svg" alt="Employee Icon" />
+            <span>2</span>
+          </div>
+        </span>
+        <div class="card-footer-bottom">
+          <span>More Details</span><img hx-get="/employees" hx-target="#swapped" hx-push-url="true"
+            src="/assets/external-link.svg" alt="External Link Icon" />
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-title">
+        <img src="/assets/birthday.svg" alt="Birthday Icon" />
+        <span>Employee Birthdays</span>
+      </div>
+      <span class="card-count">4</span>
+      <div class="card-footer">
+        <span class="card-footer-text">
+          <img src="/assets/employees.svg" alt="Employee Icon" />
+          <span>Ali, Bilal & 2 more</span></span>
+        <div class="card-footer-bottom">
+          <span>Wish Them</span><img src="/assets/external-link.svg" alt="External Link Icon" />
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-title">
+        <img src="/assets/breifcase.svg" alt="Anniversaries Icon" />
+        <span>Work Anniversaries</span>
+      </div>
+      <span class="card-count">1</span>
+      <div class="card-footer">
+        <div class="card-footer-text">
+          <img src="/assets/employees.svg" alt="Employee Icon" />
+          <span>Zulal Ahmed</span>
+        </div>
+        <div class="card-footer-bottom">
+          <span>Wish Them</span><img src="/assets/external-link.svg" alt=" External Link Icon" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="employee-invite-container">
+
+    <div class="employee-container">
+      <div class="employee-table-header">
+        <div class="employeeee">Employee</div>
+        <div class="table-headr-right">
+          <span>More Details</span><img src="/assets/external-link.svg" alt="External Link Icon" />
+        </div>
+      </div>
+      <table>
+
+        <tbody>
+          <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Date of Joining</th>
+            <th>Actions</th>
+          </tr>
+
+          <tr hx-get="/employee-details" hx-target="#swapped" hx-push-url="true">
+            <td>
+              <div>
+                <img width="30px" height="30px" src="/assets/profile_avatar_1.svg" alt="Profile Avatar" /><span>Sakura
+                  Haruno</span>
+              </div>
+            </td>
+            <td>name@email.com</td>
+            <td>Dec 15, 2023</td>
+            <td>
+              <div class="actions">
+                <img class="actions-img" src="/assets/eye.svg" alt="Eye Icon" />
+                <img class="actions-img" src="/assets/delete.svg" alt="Delete Icon" />
+                <div class="action-more">
+                  <img class="" src="/assets/menu.svg" alt="Menu Icon" />
+                  <span>More</span>
+                </div>
+              </div>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <div>
+                <img height="30px" width="30px" src="/assets/profile_avatar_2.svg" alt="Profile Avatar" /><span>Sauske
+                  Uchiha</span>
+              </div>
+            </td>
+            <td>name@email.com</td>
+            <td>Nov 15, 2023</td>
+            <td>
+              <div class="actions">
+                <img class="actions-img" src="/assets/eye.svg" alt="Eye Icon" />
+                <img class="actions-img" src="/assets/delete.svg" alt="Delete Icon" />
+                <div class="action-more">
+                  <img class="" src="/assets/menu.svg" alt="Menu Icon" />
+                  <span>More</span>
+                </div>
+              </div>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <div>
+                <img height="30px" width="30px" src="/assets/profile_avatar_1.svg" alt="Profile Avatar" /><span>Naruto
+                  Uzumaki</span>
+              </div>
+            </td>
+            <td>name@email.com</td>
+            <td>Oct 15, 2023</td>
+            <td>
+              <div class="actions">
+                <img class="actions-img" src="/assets/eye.svg" alt="Eye Icon" />
+                <img class="actions-img" src="/assets/delete.svg" alt="Delete Icon" />
+                <div class="action-more">
+                  <img class="" src="/assets/menu.svg" alt="Menu Icon" />
+                  <span>More</span>
+                </div>
+              </div>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <div>
+                <img height="30px" width="30px" src="/assets/profile_avatar_2.svg" alt="Profile Avatar" /><span>Light
+                  Yagami</span>
+              </div>
+            </td>
+            <td>name@email.com</td>
+            <td>Jan 15, 2023</td>
+            <td>
+              <div class="actions">
+                <img class="actions-img" src="/assets/eye.svg" alt="Eye Icon" />
+                <img class="actions-img" src="/assets/delete.svg" alt="Delete Icon" />
+                <div class="action-more">
+                  <img class="" src="/assets/menu.svg" alt="Menu Icon" />
+                  <span>More</span>
+                </div>
+              </div>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <div>
+                <img height="30px" width="30px" src="/assets/profile_avatar_1.svg" alt="Profile Avatar" /><span>Misa
+                  Amane</span>
+              </div>
+            </td>
+            <td>name@email.com</td>
+            <td>Jan 15, 2023</td>
+            <td>
+              <div class="actions">
+                <img class="actions-img" src="/assets/eye.svg" alt="Eye Icon" />
+                <img class="actions-img" src="/assets/delete.svg" alt="Delete Icon" />
+                <div class="action-more">
+                  <img class="" src="/assets/menu.svg" alt="Menu Icon" />
+                  <span>More</span>
+                </div>
+              </div>
+            </td>
+          </tr>
+
+          <tr class="border-none">
+            <td class="show-more-employee" colspan="4">
+              <span class="show-more-employee-content">
+                <div class="count">1-5 of 39</div>
+                <div class="arrow-actions">
+                  <img src="/assets/arrow_left.svg" alt="Arrow Left Icon" />
+                  <img src="/assets/arrow_right.svg" alt="Arrow Left Icon" />
+                </div>
+              </span>
+            </td>
+          </tr>
+
+        </tbody>
+
+      </table>
+    </div>
+
+
+    <div class="invite-container">
+      <button>
+        <img src="/assets/user-plus-invite.svg" alt="Invitation Icon" />
+        <span>Invite new People</span>
+      </button>
+      <p>
+        Invite new team members is super easy with new forms. Try adding now!
+      </p>
+      <img src="/assets/user-file.svg" alt="Send Invite Icon" />
+    </div>
+  </div>
+</div>

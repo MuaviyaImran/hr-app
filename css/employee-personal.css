@@ -1,0 +1,47 @@
+.employee-personal {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 16px;
+    gap: 24px;
+}
+
+.general-info-table {
+    display: flex;
+    column-gap: 1%;
+    flex-wrap: wrap;
+}
+
+.general-heading {
+    color: #121212;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 143%;
+    letter-spacing: 0.134px;
+}
+
+.fieldset-no-border {
+    border: none;
+    flex-basis: 30%;
+    margin: 5px 0;
+}
+
+.fieldset-no-border legend {
+    color: #6D6D6D;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0.134px;
+}
+
+.fieldset-no-border span {
+    color: #121212;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0.134px;
+    padding: 0 2px;
+}

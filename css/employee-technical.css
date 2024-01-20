@@ -1,0 +1,75 @@
+.technical-info-table {
+    display: flex;
+    column-gap: 10px;
+    flex-wrap: wrap;
+}
+
+.tech {
+    padding: 12px;
+    border-radius: 4px;
+    flex-basis: 16%;
+    margin: 7px 0;
+    border: 1px solid #DEDEDE;
+}
+
+.tech-title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.experience {
+    color: #331000;
+    text-align: end;
+    width: 100%;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 143%;
+    letter-spacing: 0.134px;
+}
+
+.links-info {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.links-content {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex-basis: 33%;
+}
+
+.links-content div {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #6D6D6D;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 143%;
+    letter-spacing: 0.134px;
+}
+
+.links-content .url {
+    color: #6D6D6D;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 143%;
+    letter-spacing: 0.134px;
+}
+
+.links-content div span {
+    text-decoration: underline;
+    text-decoration-color: #331000;
+    color: #331000;
+    font-size: 16px;
+
+    font-weight: 500;
+    line-height: 143%;
+    letter-spacing: 0.134px;
+}

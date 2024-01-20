@@ -1,0 +1,105 @@
+.employee-page {
+  width: 100;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 24px 12px;
+  margin: 20px 0;
+}
+
+.employee-page-content {
+  padding: 5px 10px;
+}
+
+.header {
+  color: #121212;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 123.5%;
+  /* 41.99px */
+  letter-spacing: 0.25px;
+}
+
+.filter-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0;
+  padding: 0 8px;
+}
+
+.filter-container .search {
+  flex-basis: 80%;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.filter-container .search input {
+  border-radius: 4px;
+  width: 100%;
+  padding: 12px;
+}
+
+.filter-container .search input,
+.filter-container .search input:focus {
+  border: none;
+  padding: 0;
+  margin: 0;
+  outline: none;
+}
+
+.filter-container .search img {
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.search fieldset {
+  width: 260px;
+  border: 1px solid rgba(0, 0, 0, 0.23);
+  outline-color: rgba(0, 0, 0, 0.23);
+  border-radius: 4px;
+}
+
+.search fieldset legend {
+  color: rgba(0, 0, 0, 0.6);
+  padding: 0 6px;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0.15px;
+}
+
+.filter-container .invite {
+  display: flex;
+  gap: 8px;
+  display: flex;
+  cursor: pointer;
+  color: #fff;
+  background-color: #34a853;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  border-radius: 4px;
+  border-color: transparent;
+  padding: 4px 8px;
+  width: fit-content;
+  align-items: center;
+  height: fit-content;
+  line-height: 22px;
+}
+
+.filter-container .invite img {
+  cursor: pointer;
+}
+
+.rows-per-page {
+  color: #4b4a4b;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 166%;
+  letter-spacing: 0.316px;
+  margin: 0 10px;
+}

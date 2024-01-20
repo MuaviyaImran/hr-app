@@ -1,0 +1,68 @@
+.transact-salaries {
+    width: 100;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 24px 12px;
+    margin: 20px 0;
+}
+
+.filter-actions {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.dropdown {
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.23);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 14px;
+    width: 180px;
+    color: rgba(0, 0, 0, 0.38);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    cursor: pointer;
+}
+
+.year-select {
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.23);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 220px;
+}
+
+.year-select span {
+    color: rgba(0, 0, 0, 0.38);
+    font-size: 16px;
+    font-style: normal;
+    padding: 8px 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+}
+
+.svg-left {
+    border-right: 1px solid rgba(0, 0, 0, 0.23);
+    padding: 8px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.svg-right {
+    border-left: 1px solid rgba(0, 0, 0, 0.23);
+    padding: 8px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}

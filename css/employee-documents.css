@@ -1,0 +1,25 @@
+.employee-documents {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 16px;
+    gap: 24px;
+    display: flex;
+}
+
+.professional-docs,
+.educational-docs,
+.other-docs {
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.file {
+    flex-basis: 19px;
+    display: flex;
+    align-items: center;
+    padding: 6px 10px;
+    background-color: #FFF6E1;
+    border-radius: 4px;
+}

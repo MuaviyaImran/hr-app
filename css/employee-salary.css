@@ -1,0 +1,55 @@
+.employee-salary {
+    margin-top: 8px;
+    padding: 0 8px;
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.salary-filter-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8px 0;
+}
+
+
+.employee-salary .search {
+    flex-basis: 80%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.employee-salary .search input {
+    border-radius: 4px;
+    width: 100%;
+    padding: 12px;
+}
+
+.employee-salary .search input,
+.employee-salary .search input:focus {
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+
+.upload {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    display: flex;
+    cursor: pointer;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    background-color: white;
+    padding: 8px 16px;
+    width: fit-content;
+    align-items: center;
+    line-height: 22px;
+    color: #121212;
+    border-radius: 4px;
+    border: 1px solid #D1D1D1
+}
