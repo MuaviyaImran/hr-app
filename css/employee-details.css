@@ -134,7 +134,3 @@
     cursor: pointer;
     border: solid 1pt #e0e0e0;
 }
-
-.tabs span:hover {
-    background: #FFEDC5;
-}
