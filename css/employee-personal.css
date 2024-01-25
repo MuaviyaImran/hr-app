@@ -15,7 +15,7 @@
 .general-heading {
     color: #121212;
     font-size: 18px;
-    font-style: normal;
+
     font-weight: 600;
     line-height: 143%;
     letter-spacing: 0.134px;
@@ -30,7 +30,7 @@
 .fieldset-no-border legend {
     color: #6D6D6D;
     font-size: 12px;
-    font-style: normal;
+
     font-weight: 500;
     line-height: 23px;
     letter-spacing: 0.134px;
@@ -39,7 +39,7 @@
 .fieldset-no-border span {
     color: #121212;
     font-size: 16px;
-    font-style: normal;
+
     font-weight: 500;
     line-height: 23px;
     letter-spacing: 0.134px;

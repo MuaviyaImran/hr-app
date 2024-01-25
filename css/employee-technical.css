@@ -23,7 +23,7 @@
     text-align: end;
     width: 100%;
     font-size: 12px;
-    font-style: normal;
+
     font-weight: 500;
     line-height: 143%;
     letter-spacing: 0.134px;
@@ -48,7 +48,7 @@
     gap: 8px;
     color: #6D6D6D;
     font-size: 12px;
-    font-style: normal;
+
     font-weight: 500;
     line-height: 143%;
     letter-spacing: 0.134px;
@@ -57,7 +57,7 @@
 .links-content .url {
     color: #6D6D6D;
     font-size: 12px;
-    font-style: normal;
+
     font-weight: 500;
     line-height: 143%;
     letter-spacing: 0.134px;

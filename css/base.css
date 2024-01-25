@@ -45,7 +45,7 @@ nav {
   /* color: #ffedc5; */
   cursor: pointer;
   font-size: 12px;
-  font-style: normal;
+
   font-weight: 600;
   line-height: normal;
 }
@@ -90,19 +90,17 @@ nav {
   justify-content: center;
   display: flex;
   align-items: center;
-  background-color: transparent;
+  background-color: #ffc853;
   gap: 6px;
-  color: white;
+  color: black;
   border-radius: 4px;
   border: 1px solid #ffc853;
   cursor: pointer;
 }
 
 .upload-csv span {
-
-  font-family: Inter;
   font-size: 14px;
-  font-style: normal;
+
   font-weight: 600;
   line-height: 22px;
 }
@@ -116,7 +114,7 @@ nav {
 
 .hr-name {
   font-size: 24px;
-  font-style: normal;
+
   font-weight: 500;
   line-height: normal;
   color: #fff;
@@ -125,7 +123,7 @@ nav {
 .hr-manager {
   color: #ffedc5;
   font-size: 12px;
-  font-style: normal;
+
   font-weight: 500;
   line-height: normal;
   letter-spacing: 1.2px;
@@ -163,7 +161,7 @@ nav {
 .card-count {
   color: #121212;
   font-size: 68.183px;
-  font-style: normal;
+
   font-weight: 500;
   line-height: normal;
 }
@@ -174,7 +172,7 @@ nav {
   justify-content: space-between;
   color: #606367;
   font-size: 16px;
-  font-style: normal;
+
   font-weight: 500;
   line-height: normal;
 }
@@ -215,7 +213,7 @@ nav {
 .card-title span {
   color: #6d6d6d;
   font-size: 16px;
-  font-style: normal;
+
   font-weight: 500;
   line-height: normal;
 }
@@ -236,7 +234,7 @@ nav {
   align-items: center;
   color: #606367;
   font-size: 16px;
-  font-style: normal;
+
   font-weight: 500;
   line-height: normal;
   margin: 0 0 10px 0;
@@ -245,7 +243,7 @@ nav {
 .employeeee {
   color: #121212;
   font-size: 24px;
-  font-style: normal;
+
   font-weight: 500;
   line-height: 123.5%;
   letter-spacing: 0.139px;
@@ -265,7 +263,7 @@ nav {
   background-color: #fff;
   width: 100%;
   border-radius: 8px;
-  font-style: normal;
+
   padding: 14px !important;
   font-size: 12px;
   letter-spacing: 0.134px;
@@ -332,10 +330,14 @@ nav {
   justify-content: end;
 }
 
+input[type="file" i] {
+  display: none !important;
+}
+
 .show-more-employee-content .count {
   color: var(--primary);
   font-size: 12px;
-  font-style: normal;
+
   font-weight: 400;
   line-height: 166%;
   letter-spacing: 0.316px;
@@ -360,7 +362,7 @@ nav {
   color: #fff;
   background-color: #34a853;
   font-size: 16px;
-  font-style: normal;
+
   font-weight: 600;
   display: flex;
   justify-content: center;
@@ -377,7 +379,7 @@ nav {
   color: rgba(18, 18, 18, 0.7);
   text-align: center;
   font-size: 16px;
-  font-style: normal;
+
   font-weight: 500;
   line-height: 22px;
 }
@@ -398,7 +400,7 @@ footer div {
 
 footer div span {
   font-size: 12px;
-  font-style: normal;
+
   font-weight: 400;
   line-height: 143%;
   padding: 10px 0;
