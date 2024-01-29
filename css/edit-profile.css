@@ -1,0 +1,39 @@
+fieldset {
+    width: 260px;
+    border: 1px solid rgba(0, 0, 0, 0.23);
+    outline-color: rgba(0, 0, 0, 0.23);
+    border-radius: 4px;
+}
+
+fieldset legend {
+    color: rgba(0, 0, 0, 0.6);
+    padding: 0 6px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0.15px;
+}
+
+.edit-input {
+    flex-basis: 30%;
+    margin: 0 0 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.edit-input input {
+    color: #121212;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0.134px;
+    border: none;
+    margin-top: 6px;
+    width: 100%;
+}
+
+.edit-input input:focus {
+    border: none;
+    outline: none;
+}

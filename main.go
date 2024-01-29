@@ -23,6 +23,7 @@ func main() {
 	r.Get("/employee-technical",handlers.H5)
 	r.Get("/employee-documents",handlers.H6)
 	r.Get("/employee-salary",handlers.H7)
+	r.Get("/employee-edit",handlers.H8)
 
 	log.Println("Listening on port 3001...")
 	log.Fatal(http.ListenAndServe(":3001", r))

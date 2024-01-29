@@ -34,6 +34,9 @@ var employeePersonal string
 //go:embed templates/transact-salaries.html
 var transactSalaries string
 
+//go:embed templates/edit-profile.html
+var editProfile string
+
 func H1(w http.ResponseWriter, r *http.Request) {
 	var body bytes.Buffer
 	temp,_:= template.New("").Parse(dashboard)
@@ -165,6 +168,27 @@ func H7(w http.ResponseWriter, r *http.Request) {
 	})
 }
 
+func H8(w http.ResponseWriter, r *http.Request) {
+	var bodyTechnical bytes.Buffer
 
+	technicalTemplate, _ := template.New("").Parse(editProfile)
+	technicalTemplate.Execute(&bodyTechnical, struct{}{})
+
+	var bodyDetails bytes.Buffer
+
+	detailsTemplate, _ := template.New("").Parse(employeeDetails)
+	detailsTemplate.Execute(&bodyDetails, struct {
+		EmployeeBody template.HTML
+	}{
+		EmployeeBody: template.HTML(bodyTechnical.String()),
+	})
+
+	baseTemplate, _ := template.New("").Parse(index)
+	baseTemplate.Execute(w, struct {
+		Body template.HTML
+	}{
+		Body: template.HTML(bodyDetails.String()),
+	})
+}
 
 
