@@ -105,8 +105,10 @@
             <span onclick="myRoute()" hx-get="/employee-salary" hx-target="#employeeBody"
                 hx-push-url="true">Salary</span>
         </div>
-        <div id="employeeBody" hx-swap-oob="true"></div>
-        {{ .EmployeeBody }}
+        <div id="employeeBody" hx-swap-oob="true">
+
+            {{ .EmployeeBody }}
+        </div>
     </div>
     <script>
         function myRoute() {
