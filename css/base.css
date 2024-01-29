@@ -100,7 +100,6 @@ nav {
 
 .upload-csv span {
   font-size: 14px;
-
   font-weight: 600;
   line-height: 22px;
 }
@@ -311,6 +310,8 @@ nav {
 }
 
 .action-more {
+  display: flex;
+  align-items: center;
   gap: 2px !important;
   padding: 5px;
   border-radius: 4px;

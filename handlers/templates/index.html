@@ -100,8 +100,9 @@
       navLink[0].style.color = 'white';
       csvButton.style.display = 'none';
     }
-    if (route === '/employees') {
-      navLink[1].style.color = 'white'; csvButton.style.display = 'none';
+    if (route === '/employees' || route === '/employee-edit' || route === '/employee-details' || route === '/employee-technical' || route === '/employee-documents' || route === '/employee-salary') {
+      navLink[1].style.color = 'white';
+      csvButton.style.display = 'none';
     }
     if (route === '/wishes') {
       navLink[2].style.color = 'white';
@@ -162,7 +163,6 @@
     table += '</table>';
     csvContentElement.innerHTML = table;
   }
-
 
 </script>
 
